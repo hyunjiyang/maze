@@ -1,0 +1,36 @@
+
+article{
+  text-align: center;
+  color: white;
+  border: none;
+}
+p{
+  font-family: 'Noto Serif KR', serif; 
+  font-size: 30px;
+  font-weight: 100;
+  border-bottom: 90px; 
+  color: white;
+  box-sizing: border-box;
+  margin: 220px 0 0px 0;
+}
+#content{
+  width: 200px;
+}
+.all{
+  width: 650px;
+  height: 50px;
+  margin: 0px 33% 10px 33%;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  padding:8px;
+  border: solid;
+}
+.right{
+  text-align: right;
+  margin-right: 10px;
+}
+#back{
+  width: 200px; height: 30px;
+  margin-top: 20px;
+}

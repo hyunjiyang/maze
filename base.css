@@ -1,0 +1,52 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: white; font-family: 'Noto Serif KR', serif;}
+body{
+  background-image: url(images/main_1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block; 
+  width: 100%;
+}
+
+header{
+  height: 80px;
+  background-color: black;
+  box-sizing: border-box;
+  padding: 30px;
+  font-size: 17px;
+  color: white;
+  display: block;
+}
+nav{
+  background-color: black;
+  color: white;
+  height: 20px;
+  box-sizing: border-box;
+  padding: 0 40% 20px 40%;
+  display: block;
+  border: solid black;
+}
+article{
+  min-height: 800px;
+  text-align: center;
+  border: solid black;
+}
+footer{
+  height: 70px;
+  bottom: 0px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+#logo{font-family: 'Fredericka the Great', cursive; }
+
+.right{float: right;}
+.left{float: left;}
+.now{color: rgb(39, 39, 173);}
+
+nav ul li {
+  float: left; margin: 0 30px; list-style: none;
+}
+

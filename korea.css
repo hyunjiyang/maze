@@ -1,0 +1,26 @@
+body{
+    font-family: 'Noto Serif KR', serif;
+}
+
+#contents{
+    margin: 100px 200px 100px 200px;
+    text-align: left;
+}
+
+#contents img{
+    height: 150px;
+}
+title{
+    display: block;
+}
+
+figure{
+    color: black; 
+    text-align: center;
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+
+}

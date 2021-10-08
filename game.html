@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta authors="양현지">
+    <title>SIDAEMUL</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Nanum+Gothic&family=Noto+Serif+KR:wght@200&=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="base.css"/>
+    <link rel="stylesheet" type="text/css" href="game.css"/>
+</head>
+<body>
+    <article>
+        <h2>미니게임</h2>
+        <br>
+
+        <div id="drag" style="margin-bottom:20px; display:block;">
+            <img id="gogu" src="images/answer.jpg" style="display: inline; width: 250px;" draggable = "true">
+            <img id="silla" src="images/no1.jpg" style="display: inline; width: 250px;"  draggable = "false">
+            <img id="baek" src="images/no2.jpg" style="display: inline; width: 250px;" draggable = "false"> 
+        </div>
+        <p>"고구려의 유물만 가방에 담아주세요"</p>
+        <div id="drop" style="border-color:white; border-style:solid;">
+            <br>드래그해서 이곳에 드랍해주세요 </div>
+
+        <script type="text/javascript" src="game.js"></script>
+        <br>
+        <input id="back" type="button" onclick="location.href='home.html'" value="홈화면 이동">
+    </article>
+</body>
+</html>

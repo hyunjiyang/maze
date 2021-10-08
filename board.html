@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta authors="양현지">
+    <title>SIDAEMUL</title>
+    <link href="https://fonts.googleapis.com/cssf2?family=Fredericka+the+Great&family=Nanum+Gothic&family=Noto+Serif+KR:wght@200&=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="base.css"/>
+    <link rel="stylesheet" type="text/css" href="board.css"/>
+</head>
+<body>
+    <article>
+        <p>방명록</p>
+        <br>
+        <div class="all">
+            작성자: <input type="text" size="10" id="name">  &nbsp;
+            내용: &nbsp;&nbsp;<input type="text" size="55" id="text">
+            &nbsp;<input type="button" value="추가" onclick="Save()">
+        </div>
+        <br>
+            <p style="margin:10px">방명록 보기</p>
+        <div class="all">
+            작성자: <select id="nameList" style="width:100px" onchange="View()">
+                      </select> &nbsp;
+            내용: <span id="content">&nbsp;</span> <br>
+            <input class="right" type="button" value="삭제" onclick="Remove()">
+            <input class="right" type="button" value="전체삭제" onclick="Clear()">
+        </div>
+        <script type="text/javascript" src="board.js"></script>
+        <br>
+        <input id="back" type="button" onclick="location.href='home.html'" value="홈화면 이동">
+    </article>
+</body>
+</html>

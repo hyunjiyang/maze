@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta authors="양현지">
+    <title>벽화 그리기</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Nanum+Gothic&family=Noto+Serif+KR:wght@200&=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="base.css"/>
+</head>
+<body>
+    <br>
+    <h1 style="color: white; text-align: center;">벽화를 그려보아요</h1><br>
+
+    <div onmousedown="start();" onmousemove="draw();" onmouseup="stop();">    
+        <canvas id="myCanvas" width="600" height="600" style="border-style: solid; background-color: white; padding: 0 5px 0 5px;"></canvas> 
+        <script type="text/javascript" src="draw.js"></script>
+    </div>
+</body>
+</html>
